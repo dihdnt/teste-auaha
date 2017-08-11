@@ -1,0 +1,15 @@
+//misc settings
+@import 'config/_settings';
+@import 'config/_mixins';
+@import 'config/_variable';
+
+//frameworks
+
+//global things
+@import 'general/_reset';
+@import 'layout/_main';
+
+//pages
+@import 'pages/index';
+@import 'pages/header';
+@import 'pages/caroucel';
