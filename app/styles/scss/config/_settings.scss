@@ -4,18 +4,19 @@
     text-transform: uppercase;
 }
 .menu-align{
-	margin-left: 5%;
+	margin-left: 0;
 }
 .marginalign{
 	margin: 0 10px;
 }
 .padding-left{
-	padding: 0 24px;
+	padding: 0px 18px;
 	margin-top: 20px;
+	margin-left: 11px;
 }
 .margin-left{
-	margin-left: 75px;
-	border: 1px solid $blue2 !important;
+	margin-left: 298px;
+    border: 1px solid #D7E8EF !important;
 }
 .fa-width{
 	font-size: 35px;
@@ -34,3 +35,41 @@
 .color-text{
 	color: $text;
 }
+
+.starrr { 
+	display: inline-block; 
+	margin-left: 20%;
+}
+.starrr i {
+  	font-size: 30px;
+  	padding: 0 1px;
+  	cursor: pointer;
+  	color: #7F7F7F;
+}
+.active{
+	color: #ffd119 !important;
+}
+.caption{
+h3{
+	text-transform: uppercase;
+    font-size: 15px;
+    color: $text;
+    text-align: center;
+    font-weight: 700;
+	}
+}
+a{
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
+}
+.text-center{
+	text-align: center;
+	color: $text;
+}
+.vitrine-align{
+	margin: -0 315px;
+	margin-left: 298px;
+}
+

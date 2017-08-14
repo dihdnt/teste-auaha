@@ -5,35 +5,56 @@
 .carousel-control.left{
 	background: none;
 	text-shadow: none;
-	opacity: 0.3;
+	opacity: 1;
 }
 .carousel-control.right{
 	font-size: 15px;
 	background: none;
 	text-shadow: none;
-	opacity: 0.3;
+	opacity: 1;
 }
 
-.glyphicon-chevron-right{
+.testea{
 	font-size: 20px !important;
+    background: #FFF;
     border-radius: 100%;
+    color: $blue;
     padding: 5px;
-    &:hover, &:focus {
-    	text-shadow: 1px 2px 3px black;
-    }
-    &:active{
-    	color: #FFF !important;
-    }
-    
 }
-.glyphicon-chevron-left{
-	font-size: 20px !important;
+.testeb{
+    padding: 0;
+    font-size: 20px !important;
     border-radius: 100%;
+    background: #FFF;
+    color: $blue;
     padding: 5px;
-    &:hover, &:focus {
-    	text-shadow: 1px 2px 3px black;
+   
+}
+.marginright{
+    margin-right: -90px;
+}
+.marginleft {
+    margin-left: -80px;
+}
+.carousel-control-top{
+    top: -100px;
+}
+.opacidade{
+    opacity: 0.3;
+}
+.preco{
+    text-decoration: none;
+    text-align: center;
+    p{
+        color: $blue2;
+        font-size: 20px;
     }
-    &:active{
-    	color: #FFF !important;
+    span{
+        color: $blue;
+        font: 700;
+        font-size: 25px;
+    }
+    strong{
+        color: $text;
     }
 }
