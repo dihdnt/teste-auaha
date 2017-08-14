@@ -1,32 +1,40 @@
 .bgteste{
-	background: $blue;
+    background: $blue;
     height: 400px !important;
 }
 .carousel-control.left{
-	background: none;
-	text-shadow: none;
-	opacity: 1;
+    background: none;
+    opacity: 1;
+    text-shadow: none;
+    height: 0;
+    margin-left: 10px;
+    margin-top: 300px;
+    width: 0;
 }
 .carousel-control.right{
-	font-size: 15px;
-	background: none;
-	text-shadow: none;
-	opacity: 1;
+    background: none;
+    font-size: 15px;
+    height: 0;
+    margin-right: -10px;
+    margin-top: 300px;
+    opacity: 1;
+    text-shadow: none;
+    width: 0;
 }
 
 .testea{
-	font-size: 20px !important;
     background: #FFF;
     border-radius: 100%;
     color: $blue;
+    font-size: 20px !important;
     padding: 5px;
 }
 .testeb{
-    padding: 0;
-    font-size: 20px !important;
-    border-radius: 100%;
     background: #FFF;
+    border-radius: 100%;
     color: $blue;
+    font-size: 20px !important;
+    padding: 0;
     padding: 5px;
    
 }
@@ -41,20 +49,36 @@
 }
 .opacidade{
     opacity: 0.3;
+    
 }
 .preco{
-    text-decoration: none;
     text-align: center;
+    text-decoration: none;
     p{
         color: $blue2;
         font-size: 20px;
     }
     span{
         color: $blue;
-        font: 700;
         font-size: 25px;
+        font: 700;
     }
     strong{
         color: $text;
     }
+}
+.aligna{
+    color: $white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: -200px;
+    position: absolute;
+}
+.alignb{
+    color: $white;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-top: -200px;
+    position: absolute;
+    right: 0px;
 }
