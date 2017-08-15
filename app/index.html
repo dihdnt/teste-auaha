@@ -7,11 +7,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Latest compiled and minified CSS & JS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <script src="//code.jquery.com/jquery.js"></script>
+        <link rel="stylesheet" href="owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+
         <script src="https://use.fontawesome.com/4ff223c014.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="styles/styles.css">
     </head>
@@ -35,7 +36,7 @@
                     <form class="navbar-form navbar-left " role="search">
                         <div class="form-group">
                             <input class="search" type="text" class="form-control" placeholder="Faça aqui sua busca">
-                            <i class="fa fa-search fa-custom" aria-hidden="true"></i>
+                                <i class="fa fa-search fa-custom" aria-hidden="true"></i>
                         </div>
                     </form>
                     <ul class="nav navbar-nav">
@@ -51,8 +52,8 @@
         <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 navbar-style-blue">
-                    <div class="menu-align">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 navbar-style-blue ">
+                    <div class="menu-align ">
                     <ul class="nav navbar-nav inlineblock upercase ">
                         <li class="">
                             <a href="#">Categoria</a>
@@ -72,17 +73,18 @@
                         <li class="marginalign">
                             <a href="#">Categoria</a>
                         </li>
-                        <li class="marginalign">
+                        <li class="marginalign ">
                             <a href="#">Categoria</a>
                         </li>
-                        <li class="marginalign">
+                        <li class="marginalign ">
                             <a href="#">Categoria</a>
                         </li>
-                        <li class="marginalign">
+                        <li class="marginalign hid">
                             <a href="#">Categoria</a>
                         </li>
                     </ul>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -114,17 +116,17 @@
         <form class="navbar-form upercase">
             <ul class="nav navbar-nav  margin-left">
                 <li class="padding-left">
-                    <span class="color-text"><i class="fa fa-truck fa-width color-blue" aria-hidden="true"></i> Frete Grátis</span>
+                        <span class="color-text"><i class="fa fa-truck fa-width color-blue" aria-hidden="true"></i> Frete Grátis</span>
                 </li>
                 <li class="padding-left">
-                    <span class="color-text"><i class="fa fa-credit-card fa-width color-blue" aria-hidden="true"></i> 12X Sem juros</span>
+                        <span class="color-text"><i class="fa fa-credit-card fa-width color-blue" aria-hidden="true"></i> 12X Sem juros</span>
                 </li>
                 <li class="padding-left">
-                    <span class="color-text"><i class="fa fa-barcode fa-width color-blue" aria-hidden="true"></i> 12% Á vista no boleto</span>
+                        <span class="color-text"><i class="fa fa-barcode fa-width color-blue" aria-hidden="true"></i> 12% Á vista no boleto</span>
                 </li>
                 <li>
                     <div class="bg">
-                        <span class=""><i class="fa fa-envelope-o fa-width" aria-hidden="true"></i> Newsletter</span>
+                            <span class=""><i class="fa fa-envelope-o fa-width" aria-hidden="true"></i> Newsletter</span>
                         <input class="search" type="text" class="form-control" placeholder="Seu e-mail">
                     </div>
                 </li>
@@ -134,178 +136,71 @@
         <section>
         <h3 class="text-center">Titulo da vitrine</h3>
         <div class="container ">
-        <div id="vitrine-1" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-1">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                            <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active" ></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                            <div class="preco">
-                                <p>R$ 108,90 <span>78,90</span></p>
-                                <p><strong>3x de 20,60 sem juros</strong></p>
-                            </div>
-
-                        </div>
-                        </a>
+            <div class="owl-carousel">
+                <div class="">
+                    <a href="#" >
+                        <img src="/arquivos/banner2.jpg" alt="banner-1" class="img-responsive">
+                    <div class="caption">
+                        <h3>Nome do produto com duas linhas de preenchimento</h3>
+                    <div class="starrr" data-numstars="5" data-connected-input="rating">
+                        <i class="fa fa-star active"></i>
+                        <i class="fa fa-star active" ></i>
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
                     </div>
 
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-2">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star " ></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
-                        </div>
-                        </a>
+                    <div class="preco">
+                        <p>R$ 108,90 <span>78,90</span></p>
+                        <p><strong>3x de 20,60 sem juros</strong></p>
                     </div>
-
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-3">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active" ></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
-                        </div>
-                        </a>
                     </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-4">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active" ></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
-                        </div>
-                        </a>
-                    </div>
+                    </a>
                 </div>
 
-                <div class="item active">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-5">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active" ></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
-                        </div>
-                        </a>
+                <div class="">
+                    <a href="#" >
+                        <img src="/arquivos/banner2.jpg" alt="banner-1" class="img-responsive">
+                    <div class="caption">
+                        <h3>Nome do produto com duas linhas de preenchimento</h3>
+                    <div class="starrr" data-numstars="5" data-connected-input="rating">
+                        <i class="fa fa-star active"></i>
+                        <i class="fa fa-star active" ></i>
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
                     </div>
 
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-6">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active" ></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
-                        </div>
-                        </a>
+                    <div class="preco">
+                        <p>R$ 108,90 <span>78,90</span></p>
+                        <p><strong>3x de 20,60 sem juros</strong></p>
+                    </div>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="">
+                    <a href="#" >
+                        <img src="/arquivos/banner2.jpg" alt="banner-1" class="img-responsive">
+                    <div class="caption">
+                        <h3>Nome do produto com duas linhas de preenchimento</h3>
+                    <div class="starrr" data-numstars="5" data-connected-input="rating">
+                        <i class="fa fa-star active"></i>
+                        <i class="fa fa-star active" ></i>
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
                     </div>
 
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-7">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active" ></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
-                        </div>
-                        </a>
+                    <div class="preco">
+                        <p>R$ 108,90 <span>78,90</span></p>
+                        <p><strong>3x de 20,60 sem juros</strong></p>
                     </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-8">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active" ></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
-                        </div>
-                        </a>
                     </div>
-
+                    </a>
                 </div>
             </div>
-           <a class="marginleft left carousel-control carousel-control-top" href="#vitrine-1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left testea"></span></a>
-            <a class="marginright right carousel-control carousel-control-top" href="#vitrine-1" data-slide="next"><span class="glyphicon glyphicon-chevron-right testeb"></span></a>
-        </div>
-        
-        </div>
-
+            </div>
 
         <div class="container">
             <div class="row">
@@ -320,176 +215,70 @@
 
               <h3 class="text-center">Titulo da vitrine</h3>
         <div class="container ">
-        <div id="vitrine-2" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div class="owl-carousel">
+                    <div class="">
                         <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-1">
+                            <img src="/arquivos/banner2.jpg" alt="banner-1" class="img-responsive">
                         <div class="caption">
                             <h3>Nome do produto com duas linhas de preenchimento</h3>
-                            <div class="starrr" data-numstars="5" data-connected-input="rating">
+                        <div class="starrr" data-numstars="5" data-connected-input="rating">
                             <i class="fa fa-star active"></i>
                             <i class="fa fa-star active" ></i>
                             <i class="fa fa-star "></i>
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
-                            </div>
+                        </div>
 
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
+                        <div class="preco">
+                            <p>R$ 108,90 <span>78,90</span></p>
+                            <p><strong>3x de 20,60 sem juros</strong></p>
+                        </div>
                         </div>
                         </a>
                     </div>
 
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="">
                         <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-2">
+                            <img src="/arquivos/banner2.jpg" alt="banner-1" class="img-responsive">
                         <div class="caption">
                             <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star " ></i>
-                            <i class="fa fa-star "></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
-                        </div>
-                        </a>
-                    </div>
-
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-3">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active" ></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-4">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
+                        <div class="starrr" data-numstars="5" data-connected-input="rating">
                             <i class="fa fa-star active"></i>
                             <i class="fa fa-star active" ></i>
                             <i class="fa fa-star "></i>
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
                         </div>
-                        </a>
-                    </div>
-                </div>
 
-                <div class="item active">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-5">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active" ></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
+                        <div class="preco">
+                            <p>R$ 108,90 <span>78,90</span></p>
+                            <p><strong>3x de 20,60 sem juros</strong></p>
+                        </div>
                         </div>
                         </a>
                     </div>
 
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="">
                         <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-6">
+                            <img src="/arquivos/banner2.jpg" alt="banner-1" class="img-responsive">
                         <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active" ></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
-                        </div>
-                        </a>
-                    </div>
+                       <h3>Nome do produto com duas linhas de preenchimento</h3>
+                   <div class="starrr" data-numstars="5" data-connected-input="rating">
+                       <i class="fa fa-star active"></i>
+                       <i class="fa fa-star active" ></i>
+                       <i class="fa fa-star "></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                   </div>
 
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-7">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active" ></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
-                        </div>
-                        </a>
+                    <div class="preco">
+                        <p>R$ 108,90 <span>78,90</span></p>
+                        <p><strong>3x de 20,60 sem juros</strong></p>
                     </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <a href="#" >
-                            <img src="/arquivos/banner2.jpg" alt="banner-8">
-                        <div class="caption">
-                            <h3>Nome do produto com duas linhas de preenchimento</h3>
-                             <div class="starrr" data-numstars="5" data-connected-input="rating">
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star active" ></i>
-                            <i class="fa fa-star active"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            </div>
-                           <div class="preco">
-                               <p>R$ 108,90 <span>78,90</span></p>
-                               <p><strong>3x de 20,60 sem juros</strong></p>
-                           </div>
-                        </div>
-                        </a>
                     </div>
-
+                    </a>
                 </div>
             </div>
-            <a class="marginleft left carousel-control carousel-control-top" href="#vitrine-2" data-slide="prev"><span class="glyphicon glyphicon-chevron-left testea"></span></a>
-            <a class="marginright right carousel-control carousel-control-top" href="#vitrine-2" data-slide="next"><span class="glyphicon glyphicon-chevron-right testeb"></span></a>
-        </div>
-        
         </div>
         </section>
         <section>
@@ -509,13 +298,68 @@
     </main>
     </body>
     <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 footer-style">
+                <p><strong>Institucional</strong></p>
+                <p>Empresa</p>
+                <p>Cadastre-se</p>
+                <p>Meus pedidos</p>
+                <p>Contato</p>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 footer-style">
+                <p><strong>Dúvidas</strong></p>
+                <p>Como comprar</p>
+                <p>Pagamento</p>
+                <p>Prazo e envio</p>
+                <p>garantia</p>
+                <p>Trocas</p>
+                <p>Segurança</p>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 footer-style">
+                <p><strong>Atendimento</strong></p>
+                <p>Televendas</p>
+                <p><strong>(11)3333 3333</strong></p>
+                <p>watsapp</p>
+                <p><strong>(11)3333 3333</strong></p>
+                <p>e-mail</p>
+                <p><strong>contato@.com.br</strong></p>
+            </div>
+        </div>
+    </div>
+
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="owl/owl.carousel.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="scripts/app.js"></script>
+
+        <script>
+             $('.owl-carousel').owlCarousel({
+                 loop:true,
+                 margin:10,
+                 autoplay:true,
+                 autoplayTimeout:5000,
+                 autoplayHoverPause:false,
+                 responsiveClass:true,
+                 responsive:{
+                     0:{
+                         items:1,
+                         nav:true
+                     },
+                     600:{
+                         items:3,
+                         nav:false
+                     },
+                     1000:{
+                         items:5,
+                         nav:true,
+                         loop:true
+                     }
+                 }
+             })
+        </script>
     </footer>
 
 
-        <script src="//code.jquery.com/jquery.js"></script>
-        <script src="starrr.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="scripts/app.js"></script>
 </html>

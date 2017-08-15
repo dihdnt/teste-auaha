@@ -41,7 +41,7 @@
 	margin-left: 20%;
 }
 .starrr i {
-  	font-size: 30px;
+  	font-size: 18px;
   	padding: 0 1px;
   	cursor: pointer;
   	color: #7F7F7F;
@@ -60,7 +60,7 @@ h3{
 }
 a{
 	text-decoration: none;
-	&:hover{
+	&:hover, &:active, &:focus, &:visited{
 		text-decoration: none;
 	}
 }
@@ -72,4 +72,6 @@ a{
 	margin: -0 315px;
 	margin-left: 298px;
 }
-
+.hid{
+	display: none;
+}
