@@ -1,0 +1,47 @@
+
+.carousel-marcas{
+	margin-bottom: 20px;
+}
+.sprite {
+    background-image: url(/arquivos/sprites.png);
+    background-repeat: no-repeat;
+    display: block;
+    
+}
+.border{
+	border: 1px solid $blue2;
+	padding-top: 10px;
+}
+
+.sprite-sprites_01 {
+    width: 180px;
+    height: 40px;
+    background-position: 25px -5px;
+    &:hover{
+    	background-position: 25px -48px;
+    }
+}
+.sprite-sprites_03 {
+    width: 180px;
+    height: 40px;
+    background-position: 25px -91px;
+    &:hover{
+    	background-position: 26px -134px;
+    }
+}
+.sprite-sprites_05 {
+    width: 180px;
+    height: 40px;
+    background-position: 25px -177px;
+    &:hover{
+    	background-position: 26px -219px;
+    }
+}
+.sprite-sprites_07 {
+    width: 180px;
+    height: 40px;
+    background-position: 25px -261px;
+    &:hover{
+    	background-position: 26px -303px;
+    }
+}

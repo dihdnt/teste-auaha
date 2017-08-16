@@ -1,23 +1,24 @@
 //initialize all of our variables
-var app, base, concat, directory, gulp, gutil, hostname, path, refresh, sass, uglify, imagemin, del, browserSync, autoprefixer, gulpSequence, shell, sourceMaps, plumber;
+var app, autoprefixer, base, browserSync, concat, del, directory, gulp, gulpSequence, gutil, hostname, imagemin, path, plumber, refresh, sass, shell, sourceMaps, uglify;
 
 var autoPrefixBrowserList = ['last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'];
 
 //load all of our dependencies
 //add more here if you want to include more libraries
-gulp         = require('gulp');
-gutil        = require('gulp-util');
-concat       = require('gulp-concat');
-uglify       = require('gulp-uglify');
-sass         = require('gulp-sass');
-sourceMaps   = require('gulp-sourcemaps');
-imagemin     = require('gulp-imagemin');
-cleanCSS     = require('gulp-clean-css');
-browserSync  = require('browser-sync');
-autoprefixer = require('gulp-autoprefixer');
-gulpSequence = require('gulp-sequence').use(gulp);
-shell        = require('gulp-shell');
-plumber      = require('gulp-plumber');
+autoprefixer = require ('gulp-autoprefixer');
+browserSync  = require ('browser-sync');
+cleanCSS     = require ('gulp-clean-css');
+concat       = require ('gulp-concat');
+gulp         = require ('gulp');
+gulpSequence = require ('gulp-sequence').use(gulp);
+gutil        = require ('gulp-util');
+imagemin     = require ('gulp-imagemin');
+plumber      = require ('gulp-plumber');
+sass         = require ('gulp-sass');
+shell        = require ('gulp-shell');
+sourceMaps   = require ('gulp-sourcemaps');
+// spriteSass   = require ('sprite-sass');
+uglify       = require ('gulp-uglify');
 
 gulp.task('browserSync', function() {
     browserSync({

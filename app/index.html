@@ -41,10 +41,10 @@
                     </form>
                     <ul class="nav navbar-nav">
 
-                        <li><a href="#">&#xf2bd; Conta</a></li>
-                        <li><a href="#">&#xf059; Ajuda</a></li>
-                        <li><a href="#">&#xf075; Central Atendimento</a></li>
-                        <li><a href="#">&#xf07a;</a></li>
+                        <li><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> Conta</a></li>
+                        <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> Ajuda</a></li>
+                        <li><a href="#"><i class="fa fa-comment" aria-hidden="true"></i> Central Atendimento</a></li>
+                        <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div>
@@ -281,18 +281,15 @@
             </div>
         </div>
         </section>
-        <section>
-            <h3>Compre por marcas</h3>
+        <section class="carousel-marcas">
+            <h3 class="text-center">Compre por marcas</h3>
             <div class="container">
-                <a class="navbar-brand" href="/">Title</a>
-                <a class="navbar-brand" href="/">Title</a>
-                <a class="navbar-brand" href="/">Title</a>
-                <a class="navbar-brand" href="/">Title</a>
-                <a class="navbar-brand" href="/">Title</a>
-                <a class="navbar-brand" href="/">Title</a>
-                <a class="navbar-brand" href="/">Title</a>
-                <a class="navbar-brand" href="/">Title</a>
-                <a class="navbar-brand" href="/">Title</a>
+                <div class="owl-carousel">
+                    <div class="border"><i class="sprite sprite-sprites_01"></i></div>
+                    <div class="border"><i class="sprite sprite-sprites_03"></i></div>
+                    <div class="border"><i class="sprite sprite-sprites_05"></i></div>
+                    <div class="border"><i class="sprite sprite-sprites_07"></i></div>
+                </div>
             </div>
         </section>
     </main>
@@ -340,16 +337,16 @@
                  margin:10,
                  autoplay:true,
                  autoplayTimeout:5000,
-                 autoplayHoverPause:false,
+                 autoplayHoverPause:true,
                  responsiveClass:true,
                  responsive:{
                      0:{
                          items:2,
-                         nav:true
+                         nav:false
                      },
                      600:{
                          items:3,
-                         nav:false
+                         nav:true
                      },
                      1000:{
                          items:5,

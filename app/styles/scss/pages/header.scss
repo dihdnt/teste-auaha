@@ -24,7 +24,7 @@
     border: none;
     color: white;
     padding: 12px;
-    width: 300px;
+    width: 350px;
     }
 .fa-custom{
 	color: $blue;
@@ -35,5 +35,16 @@
 	background: $blue;
 	span{
 		background: $white;
+	}
+}
+ul{
+	li{
+		i{
+			font-size: 20px !important;
+			
+			&:hover{
+				background: transparent !important;
+			}
+		}
 	}
 }
