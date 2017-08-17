@@ -82,3 +82,34 @@
     position: absolute;
     right: 0px;
 }
+
+/* Carousel owl */
+
+.owl-prev{
+    background: $white !important;
+    border-radius: 100% !important;
+    color: $blue !important;
+    font-size: 30px;
+    left: -15px;
+    margin-top: -1% !important;
+    padding: 5px !important;
+    position: absolute !important;
+    top: 30%;
+    i{
+        padding: 0 5px !important
+    }
+}
+.owl-next{
+    background: $white !important;
+    border-radius: 100% !important;
+    color: $blue !important;
+    font-size: 30px;
+    margin-top: -1% !important;
+    padding: 5px !important;
+    position: absolute !important;
+    right: -15px;
+    top: 30%;
+    i{
+        padding: 0 5px !important;
+    }
+}

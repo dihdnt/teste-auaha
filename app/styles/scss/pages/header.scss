@@ -39,12 +39,14 @@
 }
 ul{
 	li{
+		margin-top: 5px;
+		a{
+		&:hover{
+			background: transparent !important;
+		}
 		i{
-			font-size: 20px !important;
-			
-			&:hover{
-				background: transparent !important;
-			}
+		font-size: 20px !important;
+		}
 		}
 	}
 }
